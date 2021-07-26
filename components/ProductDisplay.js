@@ -26,7 +26,6 @@ app.component('product-display', {
       v-on:click="addToCart">Add</button>
     <button class="button" v-on:click="removeToCart">Remove </button>
   </div>
-
 </div>
 <review-form @review-submitted="reviewAdded"></review-form>
 </div>`,
